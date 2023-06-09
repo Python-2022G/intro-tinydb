@@ -3,5 +3,5 @@ from tinydb.table import Document
 
 db = TinyDB('db.json', indent=4)
 
-docs = db.all()
-print(docs)
+doc = db.contains(doc_id=3)
+print(doc)
